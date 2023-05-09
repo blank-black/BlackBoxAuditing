@@ -27,7 +27,7 @@ def get_types(data,correct_types,empty_symbol):
       else:
         if is_int(data[row][i]):
           correct_types[i] = int
-        elif is_float[i] == float:
+        elif is_float(data[row][i]) == float:
           correct_types[i] = float
         else:
           correct_types[i] = str
